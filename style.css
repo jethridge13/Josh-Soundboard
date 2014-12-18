@@ -23,11 +23,16 @@ ul {
 li {
     background-color: #2DB6CF;
     border-radius: 4px;
+    cursor: pointer;
     display: inline-block;
     margin: 4px 4px;
     font-weight: bold;
     padding: 6px 10px;
     transition: all 0.3s ease 0s;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 li:hover {
