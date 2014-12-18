@@ -28,7 +28,7 @@ li {
     margin: 4px 4px;
     font-weight: bold;
     padding: 6px 10px;
-    transition: all 0.3s ease 0s;
+    transition: background-color 0.2s;
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
